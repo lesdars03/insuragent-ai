@@ -1,0 +1,15 @@
+{
+  "buildCommand": null,
+  "outputDirectory": "build"
+}
+```
+
+Save (**Ctrl + S**), close Notepad. Then push everything including the build folder:
+```
+git add .
+```
+```
+git commit -m "deploy pre-built app"
+```
+```
+git push
